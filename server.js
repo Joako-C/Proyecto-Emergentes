@@ -12,7 +12,7 @@ const TELEGRAM_TOKEN = '8822277547:AAHtTUTEGm6ryC0bk7fXqg-jORjnyCIGsM';
 const SERVER_URL = '';
 
 const structProtoToJson =
-    require('../../botlib/proto_to_json.js').structProtoToJson;
+    require('./proto_to_json.js').structProtoToJson;
 
 const express = require('express');
 const axios = require('axios');

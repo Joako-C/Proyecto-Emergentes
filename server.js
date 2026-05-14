@@ -1,14 +1,15 @@
 /**
- * TODO(developer):
- * Add your service key to the current folder.
- * Uncomment and fill in these variables.
+ * Datos obtenidos de tu consola Conversational Agents
  */
-// const projectId = 'my-project';
-// const locationId = 'global';
-// const agentId = 'my-agent';
-// const languageCode = 'en'
-// const TELEGRAM_TOKEN='1234567898:ABCdfghTtaD8dfghdfgh45sdf65467M';
-// const SERVER_URL='https://example.com';
+const projectId = 'proyecto-emergente-496223'; 
+const locationId = 'us-central1'; 
+const agentId = '4624176a-1c84-4dfe-8432-55b6947f39f6'; 
+const languageCode = 'es';
+const TELEGRAM_TOKEN = '8822277547:AAHtTUTEGm6ryC0bk7fXqg-jORjnyCIGsM'; 
+
+// Esta URL la obtendrás después de hacer el primer 'deploy' en Cloud Run.
+// Por ahora déjala vacía o con un placeholder.
+const SERVER_URL = '';
 
 const structProtoToJson =
     require('../../botlib/proto_to_json.js').structProtoToJson;

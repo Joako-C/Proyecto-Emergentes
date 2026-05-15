@@ -5,11 +5,11 @@ const projectId = 'proyecto-emergente-496223';
 const locationId = 'us-central1'; 
 const agentId = '4624176a-1c84-4dfe-8432-55b6947f39f6'; 
 const languageCode = 'es';
-const TELEGRAM_TOKEN = '8822277547:AAHtTUTEGm6ryC0bk7fXqg-jORjnyCIGsM'; 
+const TELEGRAM_TOKEN = '8822277547:AAHtTUTEgMm6ryC0bk7fXqg-jORjnyCIGsM'; 
 
 // Esta URL la obtendrás después de hacer el primer 'deploy' en Cloud Run.
 // Por ahora déjala vacía o con un placeholder.
-const SERVER_URL = '';
+const SERVER_URL = 'https://proyecto-emergentes.onrender.com';
 
 const structProtoToJson =
     require('./proto_to_json.js').structProtoToJson;

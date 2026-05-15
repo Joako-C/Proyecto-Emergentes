@@ -9,7 +9,7 @@ const TELEGRAM_TOKEN = '8822277547:AAHtTUTEgMm6ryC0bk7fXqg-jORjnyCIGsM';
 
 // Esta URL la obtendrás después de hacer el primer 'deploy' en Cloud Run.
 // Por ahora déjala vacía o con un placeholder.
-const SERVER_URL = 'https://proyecto-emergentes.onrender.com';
+const SERVER_URL = 'https://proyecto-emergentes-dv64.onrender.com/df-callback';
 
 const structProtoToJson =
     require('./proto_to_json.js').structProtoToJson;

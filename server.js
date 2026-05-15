@@ -30,8 +30,10 @@ app.use(bodyParser.json());
 
 const {SessionsClient} = require('@google-cloud/dialogflow-cx');
 
-const client = new SessionsClient(
-    {apiEndpoint: locationId + '-dialogflow.googleapis.com'});
+const client = new SessionsClient({
+    apiEndpoint: locationId + '-dialogflow.googleapis.com',
+    keyFilename: './key.json' // <--- ESTO LE DICE A GOOGLE DÓNDE ESTÁ LA LLAVE
+});
 
 function telegramToDetectIntent(telegramRequest, sessionPath) {
   const request = {
